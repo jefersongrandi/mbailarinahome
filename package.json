@@ -19,9 +19,16 @@
   "license": "MIT",
   "homepage": "https://github.com/samteb/vue-2-webpack-4-boilerplate",
   "dependencies": {
+    "@babel/core": "7.7.7",
     "@babel/polyfill": "~7.2",
+    "@babel/preset-env": "7.7.7",
+    "@vue/babel-preset-app": "4.1.2",
+    "babel-loader": "8.0.6",
+    "babel-polyfill": "6.26.0",
     "vue": "~2.6",
-    "vue-router": "~3.0"
+    "vue-router": "~3.0",
+    "vue-style-loader": "4.1.2",
+    "webpack": "4.41.5"
   },
   "devDependencies": {
     "@babel/core": "~7.2",
